@@ -1,0 +1,11 @@
+{
+  "hostname": "your-vm-name",
+  "user": "testuser",
+  "platform": "linux",
+  "homedir": "/home/testuser",
+  "/home/testuser/.ssh/id_rsa": "READ",
+  "/home/testuser/.aws/credentials": "READ",
+  "/etc/shadow": "blocked: EACCES",
+  "persistence": "blocked: EACCES",
+  "c2": "connection made to huggingface.co"
+}
