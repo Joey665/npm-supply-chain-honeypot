@@ -227,7 +227,7 @@ Connections to trusted platforms often blend into legitimate developer workflows
 
 ```json
 {
-  "hostname": "leadgen",
+  "hostname": "your-vm-machine",
   "user": "testuser",
   "platform": "linux",
   "homedir": "/home/testuser",
@@ -299,10 +299,6 @@ Planned enhancements include:
 ---
 
 ## Screenshots
-
-### Azure Deployment
-
-![Azure VM](screenshots/azure-vm.png)
 
 ### Falco Running
 
